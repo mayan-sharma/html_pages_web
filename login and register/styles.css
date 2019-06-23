@@ -1,0 +1,10 @@
+body{
+    padding:40px 0 0 0;
+    background-color: #F4EDED
+}
+.radius{
+    border-radius:20px;
+}
+.gradient{
+    background-image: linear-gradient(to right,#3FC6D0,#71E981)
+}
