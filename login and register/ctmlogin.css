@@ -37,6 +37,7 @@ input{
     background:transparent;
     border-bottom:8px solid white;
     border-radius:8px;
+    outline: none;
 
 }
 .radius{
