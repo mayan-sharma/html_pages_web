@@ -1,10 +1,38 @@
+@font-face{
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('assests/Fonts/bahnschrift-font/BAHNSCHRIFT 1.woff') format('woff');
+}
+
 body{
-    padding:40px 0 0 0;
-    background-color: #F4EDED
+    padding: 40px 0 0 0;
+    background-color: #F4EDED;
+    font-family: 'Bahnschrift Regular';
 }
+
 .radius{
-    border-radius:20px;
+    border-radius: 20px;
 }
+
+.input-radius{
+    border-radius: 60px;
+}
+
 .gradient{
-    background-image: linear-gradient(to right,#3FC6D0,#71E981)
+    background-image: linear-gradient(to right,#3FC6D0,#71E981);
+}
+
+.btn-block{
+    outline: none;
+}
+
+input{
+    font-size: 16px;
+}
+
+.go-login-btn{
+    text-align: right;
+    color: #677565;
+    font-size: 16px;
 }
