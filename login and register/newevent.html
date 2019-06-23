@@ -5,74 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="newevent.css">
+    <script src="scripts.js"></script>
+
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 ">
                 <form>
                     <h1 class="display-3">New Event</h1>
-                    <div class="form-group mt-4">
-                        <label for="emailInput">Event Name</label>
-                        <input type="text" class="form-control " id="emailInput">
-                    </div>
+                        <div class="form-group mt-4">
+                            <label for="emailInput">Event Name</label>
+                            <input type="text" class="form-control input-radius" id="emailInput">
+                        </div>
                     <div class="form-row">
                         <div class="form-group col-5">
                             <label for="inputDate">Date</label>
-                            <input type="date" class="form-control " id="inputDate">
+                            <input type="date" class="form-control input-radius" id="inputDate">
                         </div>
                         <div class="form-group col-5 offset-2">
-                                <label for="inputDate">Time</label>
-                                <input type="time" class="form-control" id="inputDate">
+                            <label for="inputDate">Time</label>
+                            <input type="time" class="form-control input-radius" id="inputDate">
                         </div>
                     </div>
-                    <div class="form-group mt-1">
-                        
-                            <label for="inputInterest">Interest Groups</label>
-                            <div class="form-row" id="inputInterest">
-                                <div class="col-5 col-md-3">
-                                        <label class="btn btn-secondary btn-block radius">
-                                                <input type="checkbox" name="interest1" value="Ml" > ML
-                                        </label>
+                        <div class="form-group mt-1">
+                            
+                                <label for="inputInterest">Interest Groups</label>
+                                <div class="form-row" id="inputInterest">
+                                    <div class="col-5 col-md-3">
+                                            <label class="btn btn-secondary btn-block radius checkbox-label">
+                                                <input type="checkbox" class="checkbox-btn"  name="interest1" value="Ml" hidden>ML
+                                            </label>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                            <label class="btn btn-secondary btn-block radius checkbox-label">
+                                                <input type="checkbox" class="checkbox-btn" name="interest2" value="Web" hidden> Web
+                                            </label>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                            <label class="btn btn-secondary btn-block radius checkbox-label">
+                                                <input type="checkbox" class="checkbox-btn" name="interest3" value="Android" hidden> Android
+                                            </label>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                            <label class="btn btn-secondary btn-block radius checkbox-label">
+                                                <input type="checkbox" class="checkbox-btn" name="interest4" value="CP" hidden>CP
+                                            </label>
+                                    </div>
+                                    
                                 </div>
-                                <div class="col-5 col-md-3">
-                                        <label class="btn btn-secondary btn-block radius">
-                                                <input type="checkbox" name="interest2" value="Web"  > Web
-                                        </label>
+                                <div class="form-group mt-1">
+                                    <label for="notes">Additional Notes</label>
+                                    <textarea class="form-control input-radius" id="notes" rows="4"></textarea>
                                 </div>
-                                <div class="col-5 col-md-3">
-                                        <label class="btn btn-secondary btn-block radius">
-                                                <input type="checkbox" name="interest3" value="Android"  > Android
-                                        </label>
+                                <div class="form-row justify-content-end">
+                                    <div class="col-3">
+                                        <button type="submit" class="btn btn-block btn-primary radius text-dark input-radius"><b>Send Emails</b></button>
+                                    </div>
+                                    
                                 </div>
-                                <div class="col-5 col-md-3">
-                                        <label class="btn btn-secondary btn-block radius">
-                                                <input type="checkbox" name="interest4" value="Cp"> Cp
-                                        </label>
-                                </div>
-                                
+                                    
                             </div>
-                            <div class="form-group mt-1">
-                                <label for="notes">Additional Notes</label>
-                                <textarea class="form-control" id="notes" rows="4"></textarea>
-                            </div>
-                            <div class="form-row justify-content-end">
-                                <div class="col-3">
-                                    <button type="" class="btn btn-block btn-primary radius text-dark"><b>Send Emails</b></button>
-                                </div>
-                                
-                            </div>
-
-                                   
-                            </div>
-                           
+                        </form>  
                     </div>
-                </form>
-            </div>
+               </div>
         </div>
         
     </div>
