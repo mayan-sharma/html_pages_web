@@ -1,25 +1,38 @@
+@font-face{
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('assests/Fonts/bahnschrift-font/BAHNSCHRIFT 1.woff') format('woff');
+}
+
+
+
 html{
-    height:100%;
-    margin:0;
-    overflow:hidden;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
 body{
-    height:100%;
-    margin:0;
-    overflow:hidden;
-    background-image:linear-gradient(#132d3d,#4F160B);
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(#132d3d,#4F160B);
 }
+
 .center{
-    height:60vh;
+    height: 60vh;
 }
+
 .top{
-    height:20vh;
+    height: 20vh;
 }
+
 .bottom{
     height:20vh;
     justify-content: flex-end;
 }
+
 .bgimage{
     background-image:url("assests/SVG-Icons-master/SVG-Icons-master/New Text Document.svg");
     width: 50vw;
@@ -28,25 +41,52 @@ body{
     background-size: contain;
     position: relative;
 }
+
 #loginform{
-    margin-top:20vh;
+    margin-top: 20vh;
 }
 
 input{
     border:0;
-    background:transparent;
-    border-bottom:8px solid white;
-    border-radius:8px;
+    background: transparent;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Bahnschrift Regular';
+    font-size: 18px;
+    border-bottom: none;
+    border-color: transparent;
+    border-style: none;
+    /* border-bottom: 8px solid white; */
+    border-radius: 8px;
     outline: none;
-
-
+    padding-left: 6px;
 }
+
+hr{
+    margin-top: 0px;
+    border-width: 8px;
+    border-radius: 6px;
+    color: white;
+    border-color: white;
+}
+
+.sign-in-btn{
+    font-family: 'Bahnschrift Regular';
+    font-size: 14px;
+}
+
 .radius{
-    border-radius:20px;
+    border-radius: 20px;
 }
+
+
 @media screen and (min-width:400px){
     input{
-        width:250px;
+        width: 250px;
+        font-size: 24px;
+    }
+
+    .sign-in-btn{
+        font-size: 16px;
     }
 }
-
