@@ -1,0 +1,29 @@
+.sidedrawer{
+    height:100vh;
+    width:40%;
+    max-width: 350px;
+    background:beige;
+    color:black;
+    position: fixed;
+    top:0;
+    left:0;
+    box-shadow: 2px 0 5px rgba(0 0 0 0.5);
+    z-index:200;
+    display:flex;
+    flex-direction: column;
+}
+
+.sidedrawer div{
+    margin-left:10%;
+    margin-top:15%;
+}
+
+.sidedrawer a{
+    text-decoration: none;
+
+}
+
+.sidedrawer div a:hover,
+.sidedrawer div a:active {
+    color:black;
+}
