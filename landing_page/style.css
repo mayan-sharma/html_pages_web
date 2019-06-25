@@ -1,3 +1,19 @@
+::-moz-selection{
+    background-color: #ee0970;
+}
+
+::selection{
+    background-color: #ee0970;
+}
+
+img::-moz-selection{
+    background-color: transparent;
+}
+
+img::selection{
+    background-color: transparent;
+}
+
 body{
     color:white;
     scroll-behavior: smooth;
@@ -252,6 +268,10 @@ body{
   }
 
   #ftext:hover{
+    font-weight: 400;
     background: rgb(236,66,53);
-    background: linear-gradient(90deg, rgba(236,66,53,1) 0%, rgba(15,157,85,1) 50%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(236,66,53,1) 0%, rgba(15,157,85,1) 50%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
