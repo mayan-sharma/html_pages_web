@@ -92,7 +92,7 @@ section {
   font-size: 18px;
 }
 
-.card_style {
+/* .card_style {
   border-radius: ;
   height: 500px;
   width: 80%;
@@ -139,4 +139,149 @@ section {
 
 .footer_logo {
   width: 10%;
+} */
+
+#carddis{
+  margin: 7% 16%;
+ 
+}
+
+.blogbg{
+  height:1200px;
+  background-color: #111d27
+}
+
+#blogtext{
+  width: 100%;
+}
+
+.carousel-class{
+  width: 100%;
+}
+
+.card{
+  height: 400px;
+  width: 90%;
+  border-radius: 57px;
+}
+
+#carda{
+  float: right;
+  display: inline-block;
+  background: linear-gradient(30.35deg, #D37200 1.89%, rgba(255, 138, 0, 0) 96.71%);
+}
+
+#center{
+  text-align: center;
+}
+
+#cardb{
+  align-self: center;
+  display: inline-block;
+  background: linear-gradient(30.59deg, #0E5EE6 1.66%, rgba(0, 94, 255, 0) 96.72%);
+}
+
+#cardc{
+  display: inline-block;
+  background: linear-gradient(30.66deg, rgba(235, 0, 255, 0.99) 1.53%, rgba(235, 0, 255, 0) 96.91%);
+  z-index: 1;
+}
+
+#blogsbut{
+  width: 180px;
+  border-radius: 35px !important;
+  font-size: 18px;
+  height: 45px;
+  background: linear-gradient(90deg, #41BDF2 -15.14%, #13FFBE 120.91%) !important;
+  color: black;
+  margin-right: 4%;
+  float: right;
+
+}
+
+.blog-card{
+  float: right;
+  right: 0px;
+  margin-right: -10%;
+  width: 200px;
+  /* height: 151.13px; */
+}
+
+.Pentool{
+  z-index: 100;
+  margin-top: -100px;
+  top: -100px;
+}
+
+/*FOOTER*/
+
+#footer{
+  height: 200px;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+
+#fcontent{
+  padding-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+#dsclogo{
+  height:60px;
+  
+}
+
+#ftext{
+  font-size: 45px;
+  padding-left: 10px;
+  background: inherit;
+  
+
+}
+
+#icons{
+  float: right;
+  padding-top: 10px;
+}
+
+.fab{
+  margin-left: 10px;
+}
+
+#bottom{
+  font-size: 20px;
+}
+
+.fa-facebook-square:hover {
+  color: #4267b2;
+}
+
+.fa-instagram:hover {
+  color: #e64c5c;
+}
+
+.fa-dribbble-square:hover {
+  color: #ae004f;
+}
+
+.fa-twitter-square:hover {
+  color: #1ab2e8;
+}
+
+.fa-github-square:hover{
+    color:black;
+}
+
+#ftext:hover{
+  font-weight: 400;
+  background: rgb(236,66,53);
+  background: -webkit-linear-gradient(90deg, rgba(236,66,53,1) 0%, rgba(15,157,85,1) 50%, rgba(0,212,255,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
